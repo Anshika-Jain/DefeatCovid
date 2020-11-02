@@ -1,0 +1,14 @@
+.form-control label {
+  margin: 5px 0;
+}
+.form-control input {
+  border: 1px solid rgb(184, 184, 184);
+  outline-color: rgb(152, 151, 151);
+}
+.form-control--invalid {
+  color: rgb(98, 85, 85);
+}
+
+.form-control--invalid input,
+.form-control--invalid textarea {
+}
