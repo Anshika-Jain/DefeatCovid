@@ -1,11 +1,31 @@
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-brand {
+  font-size: x-large;
+  margin: 0px 50px 0px 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.navbar-link {
+  margin-right: 30px;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.clap-button button {
+  outline: none;
+}
+.sc-bdfBwQ {
+  display: none;
+}
+
 .slide-up {
   animation-name: slide;
   animation-duration: 1s;
@@ -22,16 +42,4 @@
     opacity: 1;
     top: 0px;
   }
-}
-
-.clap-button button {
-  outline: none;
-}
-.sc-bdfBwQ {
-  display: none;
-}
-
-.display-flex {
-  display: flex;
-  justify-content: space-between;
 }
