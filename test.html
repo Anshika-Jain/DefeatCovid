@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="1x/codiv19.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js">
+    </script>
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-     <title>DefeatCovid| Test</title>
+     
+    <title>Test</title>
 </head>
 <body >
     <nav class="navbar navbar-expand-md ">
@@ -51,6 +55,7 @@
     <div class="container" >
     <div class="row">
     <div id="test">
+        <div id="mwb" style="visibility: visible;">
         <p style="color: #31936b; font-size: 2rem; font-weight: bolder; text-align: center;" >Hey there! Answer these simple questions and we will let you know about your Mental Well-Being!
                
         </p>
@@ -207,11 +212,77 @@
                         </tr>
                 </form>
         </table>
+</div>
         <center>
                 <div id="result">RESULT? click on submit.</div>
                 <br>
+                <div id="testsubmitbtn" style="visibility: visible;">
                 <input type="button" onclick="res()" value="Submit" id="testbut" style="padding: 10px; border-radius: 3px; background-color: #31936b; color: white;">
+        </div>
+                <div id ="solnbtn" style="visibility:hidden ;">
+                <input type="button" onclick="soln()" value="Get Solutions" id="testbut" style="padding: 10px; border-radius: 3px; background-color: #31936b; color: white;">
+        </div>
         </center>
+
+        <div id="soln1" style="visibility: hidden;;">
+                <div class="container">
+                        <h1>Solutions</h1>
+                        <br>
+                        <div class="row ">
+                                <div class="col-6 main-bg-img">
+                                        <h3 style="color:  #31936b;">
+                                            <div class="video-slider">
+                                                <!-- SLIDE 1 -->
+                                                <div class="slide">
+                                                    <div style="position:relative;height:0;padding-bottom:56.28%"><iframe width="560" height="315" src="https://www.youtube.com/embed/2YC6qBC0j8o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                                </div>
+                                                <br>
+                                                <!-- SLIDE 2 -->
+                                                <div class="slide">
+                                                    <div style="position:relative;height:0;padding-bottom:56.28%"><iframe width="560" height="315" src="https://www.youtube.com/embed/78nsxRxbf4w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                                </div>
+                                                <!-- END OF SLIDES -->
+                                                <div class="slide-arrow left"></div>
+                                                <div class="slide-arrow right"></div>
+                                                </div>
+                                        </h3>
+                                    </div>
+                       
+                        <div class="col-6 main-bg-img">
+                            <h3 style="color:  #31936b;">
+                                <div class="video-slider">
+                                    <!-- SLIDE 1 -->
+                                    <div class="slide">
+                                        <div style="position:relative;height:0;padding-bottom:56.28%"><iframe width="560" height="315" src="https://www.youtube.com/embed/U_BRt4b76AE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                    </div>
+                                    <br>
+                                    <!-- SLIDE 2 -->
+                                    <div class="slide">
+                                        <div style="position:relative;height:0;padding-bottom:56.28%"><iframe width="560" height="315" src="https://www.youtube.com/embed/QZQeie2iY7E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                                    </div>
+                                    <!-- END OF SLIDES -->
+                                    <div class="slide-arrow left"></div>
+                                    <div class="slide-arrow right"></div>
+                                    </div>
+                            </h3>
+                        </div>
+                         
+                        </div>
+                    </div>
+        </div>
+
+        <div id="soln2" style="visibility: hidden;">
+<div class="container">
+        <div class="row">
+                <div class="col">
+
+                </div>
+                <div class="col" style="color: #31936b; text-align: center;">Dont Worry! You are good to go!</div>
+                <div class="col"></div>
+        </div>
+</div>
+
+        </div>
 
 </div>
 </div>
